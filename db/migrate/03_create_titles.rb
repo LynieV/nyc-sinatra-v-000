@@ -5,5 +5,5 @@ class CreateTitles < ActiveRecord::Migration
       t.string :name
     end
   end
-  
+
 end
