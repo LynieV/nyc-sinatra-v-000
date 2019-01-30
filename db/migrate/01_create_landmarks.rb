@@ -1,4 +1,5 @@
 class CreateLandmarks < ActiveRecord::Migration
+  
   def change
     create_table :landmarks do |t|
       t.string :name
@@ -6,4 +7,5 @@ class CreateLandmarks < ActiveRecord::Migration
       t.integer :year_completed
     end
   end
+  
 end
